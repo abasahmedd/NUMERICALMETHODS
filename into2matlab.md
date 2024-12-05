@@ -61,7 +61,7 @@
 
 ## 2- Operators. ##
 
-![alt text](picture\image-4.png)
+picture/image-4.png
 ![alt text](picture\image-5.png)
 ![alt text](picture\image-6.png)
 ![alt text](picture\image-7.png)
@@ -90,4 +90,4 @@ if, else, elseif
              block
         end
 switch 
-![alt text](picture\image-11.png)
+![alt text](image-11.png)
