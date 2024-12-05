@@ -1,19 +1,36 @@
 clc
 clear
 format long
+%lecture1/page26
+%error analysis
+%example with  McLauren series(series expansion of the e^x function) and error analysis
 
-Rv = 1.648721271;
+realvalue = 1.648721271;                                                         %initial x value
 x = 0.5 ;
-Av = zeros(1,n);
-Av(1)=1;
-for i = 1 :4
-    Av(1) = 1 ;
-    Av(i) = Av(i-1) + (x^(i-1))/factorial(i-1);
+n = 4; 
+averagevalue = zeros(1,n);                                                       %average x value
+averagevalue(1)=1;
+Ea = zeros(1, n - 1);
+
+% McLauren series Method
+% e^x = 1 + e^x^3/2 + e^x^3/3 + e^x^4/4 ... + e^x^n/n
+averagevalue(1) = 1 ;
+for i = 2 : n
+    averagevalue(i) = averagevalue(i-1) + (x^(i-1))/factorial(i-1);
 end
-for i = 2:n
-    Ea(i-1) = abs((Av(i) - Av(i-1)) / Av(i)) * 100;
+
+% e^x = 1 + + 1.5 +1.625 
+
+
+
+for i = 2 : n
+    Ea(i-1) = abs((averagevalue(i) - averagevalue(i-1)) / averagevalue(i)) * 100;
 end
-Et = abs((Rv-Av)/(Rv))*100 ;
-Ea(1) = abs((Av(2)-Av(1))/Av(2))*100 ;
-Ea(2) = abs((Av(3)-Av(2))/Av(3))*100 ;
-Ea(3) = abs((Av(4)-Av(3))/Av(4))*100 ;
+
+
+Et = abs((realvalue-averagevalue)/(realvalue))*100 ;
+
+
+
+disp(Et');
+disp(Ea');
