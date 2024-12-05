@@ -40,15 +40,21 @@ ans = double
 ![alt text](picture/image-1.png)
 
  warning off % Suppresses print of warning messages
- >> 5/0
+5/0
+
+
 ans = Inf
->> 5*NaN
+5*NaN
+
+
 ans = NaN
  % Most operations with NaN result in NaN
- >> NaN == NaN % Different NaN’s are not equal!
+NaN == NaN % Different NaN’s are not equal!
  ans =
  0
- >> eps
+
+
+eps
  ans =
  2.2204e-016
 
