@@ -4,15 +4,25 @@
 
 
  topic
+
 1- Data Types and Variables.
+
 2- Operators.
+
 3- Comparison Operators.
+
 4- flow control.
+
 5- functions.
+
 6- input/output.
+
 7- Array Manipulation.
+
 8- Writing and Running Programs.
+
 9- plotting.
+
 
 
 ## 1- Data Types and Variables. ##
