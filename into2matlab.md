@@ -52,11 +52,10 @@
  1
  2
  3
- ![alt text](picture\image-1.png)
-  [alt text](picture\image-2.png)
- cells 
- ![alt text](picture\image-3.png)
-
+picture\image-1.png
+picture\image-2.png 
+cells 
+picture\image-3.png
 
 
 ## 2- Operators. ##
