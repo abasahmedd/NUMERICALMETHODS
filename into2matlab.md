@@ -52,23 +52,23 @@
  1
  2
  3
-picture\image-1.png
-picture\image-2.png 
-cells 
-picture\image-3.png
+![alt text](picture/image-1.png)
+  [alt text](picture/image-2.png)
+ cells 
+ ![alt text](picture/image-3.png)
+
 
 
 ## 2- Operators. ##
 
-picture/image-4.png
-![alt text](picture\image-5.png)
-![alt text](picture\image-6.png)
-![alt text](picture\image-7.png)
+picture/image-4.png![alt text](picture\image-5.png)
+![alt text](picture/image-6.png)
+![alt text](picture/image-7.png)
 ## 3- Comparison Operators. ##
 
-![alt text](picture\image-8.png)
-![alt text](picture\image-9.png)
-![alt text](picture\image-10.png)
+![alt text](picture/image-8.png)
+![alt text](picture/image-9.png)
+![alt text](picture/image-10.png)
 ## 4- flow control. ##
 if, else, elseif
    
@@ -89,4 +89,4 @@ if, else, elseif
              block
         end
 switch 
-![alt text](image-11.png)
+![alt text](picture/image-11.png)
