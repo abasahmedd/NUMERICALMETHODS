@@ -21,7 +21,9 @@
  double
 
  Variables
-![alt text](picture\image-1.png)
+
+![alt text](picture/image-1.png)
+
  >> warning off % Suppresses print of warning messages
  >> 5/0
  ans =
