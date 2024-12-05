@@ -21,7 +21,7 @@
  double
 
  Variables
-![alt text](image.png)
+![alt text](picture\image-1.png)
  >> warning off % Suppresses print of warning messages
  >> 5/0
  ans =
@@ -52,24 +52,24 @@
  1
  2
  3
- ![alt text](image-1.png)
-  [alt text](image-2.png)
+ ![alt text](picture\image-1.png)
+  [alt text](picture\image-2.png)
  cells 
- ![alt text](image-3.png)
+ ![alt text](picture\image-3.png)
 
 
 
 ## 2- Operators. ##
 
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
+![alt text](picture\image-4.png)
+![alt text](picture\image-5.png)
+![alt text](picture\image-6.png)
+![alt text](picture\image-7.png)
 ## 3- Comparison Operators. ##
 
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](picture\image-8.png)
+![alt text](picture\image-9.png)
+![alt text](picture\image-10.png)
 ## 4- flow control. ##
 if, else, elseif
    
@@ -90,4 +90,4 @@ if, else, elseif
              block
         end
 switch 
-![alt text](image-11.png)
+![alt text](picture\image-11.png)
