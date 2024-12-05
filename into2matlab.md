@@ -15,22 +15,21 @@
 
 
  Data Types
-  x = 1 + 3i % Complex number
+
+x = 1 + 3i % Complex number
+
  >> class(x)
- ans =
- double
+ans = double
 
  Variables
 
 ![alt text](picture/image-1.png)
 
- >> warning off % Suppresses print of warning messages
+ warning off % Suppresses print of warning messages
  >> 5/0
- ans =
- Inf
- >> 5*NaN
- ans =
- NaN
+ans = Inf
+>> 5*NaN
+ans = NaN
  % Most operations with NaN result in NaN
  >> NaN == NaN % Different NaN’s are not equal!
  ans =
@@ -39,21 +38,14 @@
  ans =
  2.2204e-016
 
- array
-  >> b = [1 2 3]
- b =
- % Row vector
- 1 2 3
- >> b = [1; 2; 3]
- b =
- 1
- 2
- 3
-  >> b = [1 2 3]’
- b =
- 1
- 2
- 3
+array
+b = [1 2 3]
+b = % Row vector
+1 2 3
+b = [1; 2; 3]
+b = 1 2 3
+b = [1 2 3]’
+b =1 2 3
  ![alt text](picture/image-1.png)
 
  ![alt text](picture/image-2.png)
