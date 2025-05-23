@@ -23,7 +23,3 @@ xlabel('X-axis')
 ylabel('Y-axis')
 title('Linear Regression Plot')
 grid on 
-%داله جاهزة 
-% coeffs = polyfit(x, y, 1);coeffs = polyfit(x, y, 1); % حساب الميل والثابت
-% = polyval(coeffs, x); % حساب القيم المتوقعة
-%plot(x, yf_polyfit, 'g--', 'LineWidth', 1.5)
